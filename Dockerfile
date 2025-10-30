@@ -13,7 +13,7 @@ RUN pip install -r requirements.txt
 
 # Copy all your project files into the container
 # This includes .py files and the kilimomodelV3 folder
-COPY . .
+COPY . /
 
 # Expose the port Runpod will use
 EXPOSE 8080
