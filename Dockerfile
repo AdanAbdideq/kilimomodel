@@ -20,4 +20,5 @@ EXPOSE 8080
 
 # The command Runpod will use to start your handler
 # This starts the lightweight Python server provided by Runpod
-CMD ["python", "-m", "runpod.serverless"]
+#CMD ["python", "-m", "/rp_handler.py"]
+CMD python -u /rp_handler.py
